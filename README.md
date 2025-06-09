@@ -22,7 +22,7 @@ It includes training a model from scratch for image classification tasks.
 📦 Mamba-CIFAR
  ┣ 📄 mamba_image_classifier.py     # Main training script
  ┣ 📄 README.md                     # This file
-
+```
 
 
 ## 🚀 Getting Started
