@@ -37,7 +37,7 @@ pip install mamba-ssm causal-conv1d --no-build-isolation
 git clone https://github.com/Marshajennifer/simple-mamba.git
 cd mamba-cifar10
 ```
-### Run the .ipynb file to train and test the model.
+### Run the simple_mamba.ipynb file to train and test the model.
 
 ### Trained model is also uploaded in the repository.
 ```bash
