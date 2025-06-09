@@ -27,7 +27,7 @@ It includes training a model from scratch for image classification tasks.
 
 ## 🚀 Getting Started
 
-### 1. Install necessary dependencies:
+### Install necessary dependencies:
 
 This project requires Python ≥ 3.8 and PyTorch ≥ 1.12.
 
@@ -36,18 +36,18 @@ Install all required dependencies using:
 ```bash
 pip install torch torchvision
 pip install mamba-ssm causal-conv1d
-
+```
 If you encounter PyTorch version or compiler issues (e.g., during building mamba-ssm), use the following safer option:
 ```bash
 pip install mamba-ssm causal-conv1d --no-build-isolation
-
+```
 
 ### To Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/mamba-cifar10.git
 cd mamba-cifar10
-
+```
 ### Run the .ipynb file to train and test the model.
 
 ### Trained model is also uploaded in the repository.
