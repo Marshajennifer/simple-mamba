@@ -14,17 +14,6 @@ It includes training a model from scratch for image classification tasks.
 
 [Mamba](https://arxiv.org/abs/2312.00752) is a Selective State Space Model introduced by Gu et al. (2023) for efficient sequence modeling. Unlike Transformers, Mamba avoids attention by using dynamic linear state-space operators with selective memory updates — enabling faster and scalable training, even in causal or streaming settings.
 
----
-
-## 🗂️ Repository Structure
-
-```bash
-📦 Mamba-CIFAR
- ┣ 📄 mamba_image_classifier.py     # Main training script
- ┣ 📄 README.md                     # This file
-```
-
-
 ## 🚀 Getting Started
 
 ### Install necessary dependencies:
@@ -45,7 +34,7 @@ pip install mamba-ssm causal-conv1d --no-build-isolation
 ### To Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/mamba-cifar10.git
+git clone https://github.com/Marshajennifer/simple-mamba.git
 cd mamba-cifar10
 ```
 ### Run the .ipynb file to train and test the model.
@@ -53,3 +42,24 @@ cd mamba-cifar10
 ### Trained model is also uploaded in the repository.
 ```bash
 mamba_cifar.pth
+```
+
+## Acknowledgements
+
+This implementation builds upon the official [`mamba-ssm`](https://github.com/state-spaces/mamba) PyTorch library developed by the authors of **Mamba: Linear-Time Sequence Modeling with Selective State Spaces**.
+
+## 📚 Citation
+
+If you use this code or model in your work, please consider citing:
+
+```bibtex
+@misc{gu2024mambalineartimesequencemodeling,
+      title={Mamba: Linear-Time Sequence Modeling with Selective State Spaces}, 
+      author={Albert Gu and Tri Dao},
+      year={2024},
+      eprint={2312.00752},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2312.00752}, 
+}
+```
